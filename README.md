@@ -16,7 +16,7 @@
 
 
 	dependencies {
-	        compile 'com.github.PrinceOfAndroid:TaosPhotoWall:v1.0'
+	        compile 'com.github.PrinceOfAndroid:TaosPhotoWall:v1.1'
 	}
 
 ## 代码使用

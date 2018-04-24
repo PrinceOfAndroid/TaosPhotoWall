@@ -22,6 +22,19 @@
 ## 代码使用
 ``` java
 TaosPhotoWallActivity.starForResult(MainActivity.this, true , MAX_PHOTO, CODE_PHOTO_WALL);
+
+//获取选择的图片地址
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == RESULT_OK) {
+            switch (requestCode) {
+                case CODE_PHOTO_WALL:
+                    //选择图片的本地路径
+                    List<String> paths = data.getStringArrayListExtra(TaosPhotoWallActivity.DATA_KEY);
+                    break;
+            }
+        }
+    }
 ```
 
 ## 其中引用其他库

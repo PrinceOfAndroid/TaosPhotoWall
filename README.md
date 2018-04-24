@@ -4,4 +4,6 @@
 * 支持大图预览
 
 ## 屏幕截图
- ![image](https://github.com/PrinceOfAndroid/TaosPhotoWall/screenshots/one.png)
+<img width="180" height="300" src="https://github.com/PrinceOfAndroid/TaosPhotoWall/blob/master/screenshots/one.png"/> <img width="180" height="300" src="https://github.com/PrinceOfAndroid/TaosPhotoWall/blob/master/screenshots/two.png"/>  <img width="180" height="300" src="https://github.com/PrinceOfAndroid/TaosPhotoWall/blob/master/screenshots/three.png"/>
+
+##  Gradle
